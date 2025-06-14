@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de hover</title>
+    <style>
+
+        body{
+    font-family:Arial, Helvetica, sans-serif;
+        }
+        div:hover{
+            color:red;
+        }
+        /*quando passar o mouse em cima do texto o texto vai ficar vermelho*/
+    div > p{
+        display:none;
+    }
+    /*o texto que estiver dentro da div vai sumir por causa do display:none;*/
+    /*div > p sigina que todo paragrafo que esta dentro da div*/
+    div:hover > p{
+        display:block;
+        color:white;
+        background-color:red;
+    }
+    /*div:hover > p siginifica que quando eu passar o mouse em cima do texto que esta na div será executada uma ação no paragrafo*/
+    /*display block vai revelar o paragrafo escondido pelo display none*/
+
+    </style>
+</head>
+<body>
+    <h1>exemplo de hover</h1> 
+    <p>passe o mouse sobre o texto abaixo</p>
+    <div>
+        passe o mouse aqui
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+    <p></p>
+</body>
+</html>

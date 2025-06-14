@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-elementos</title>
+    <style>
+        body{
+        font-family: 'Courier New', Courier, monospace;
+        }
+    a{
+        color:red;
+        text-decoration:none;
+        font-weight:bold;
+    }
+    a:visited{
+        color:darkred;                           
+
+    }
+    /*quando o link for visitado ele vai ficar da cor darkred*/
+    a:hover{
+        color:black;
+        text-decoration-line: underline;
+    }
+    /*quando passar o mouse por cima ele vai ficar com uma linha embaixo e da cor preta*/
+    a:active{ 
+        color:yellow;
+    }
+    /*o active serve para quando eu clicar no link ele vai ficar amarelo*/
+    a::before{
+        content:"⇒";
+    }
+    /*mostra o que vem antes do link*/
+    .youtube::after{
+        content:"⇐";
+    }
+    /*mostra o que vem depois do link*/
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <a href="https://gustavoguanabara.github.io " target="_blank"><li>repertorio githb</li></a>
+        <a href="https://youtube.com/cursoemvideo/"  target="_blank"><li id="youtube">canal do youtube</li></a>
+        <a href="https://www.cursoemvideo.com" target="_blank"><li>site do cursoemvideo</li></a>
+    </ul>
+
+</body>
+</html>

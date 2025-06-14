@@ -1,0 +1,9 @@
+*{/*configurações globais da css*/
+    height:100%;
+    }
+
+
+body{
+    /*background image serve para usar degrade*/
+    background-image:linear-gradient(to right,#CE3D88 1%, #9238AC, #E94576, #F86C53, #FDAE41 80%);
+}

@@ -1,0 +1,25 @@
+body{
+    background-color:rgba(50, 240, 50, 0.521);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color: rgb(6, 158, 6);
+}
+#principal{
+text-align:center;
+}
+h2{
+    color: rgba(3, 58, 3, 0.678);
+}
+.basico{
+    color:rgb(3, 26, 1);
+}
+.intermediario{
+    color:yellow;
+}
+.avancado{
+    color:red;
+}
+.aprendendo{
+    background-color:brown;
+}
